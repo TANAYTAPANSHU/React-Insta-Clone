@@ -1,0 +1,44 @@
+div.post {
+    max-width: 500px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    margin-bottom: 45px;
+}
+
+.post__header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.post__avatar {
+    margin-right: 10px;
+}
+
+.post__image {
+    width: 100%;
+    object-fit: contain;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+
+.post__text {
+    font-weight: normal;
+    padding: 20px;
+}
+
+.post__button {
+    border: none;
+    color: #31B7FA;
+    font-weight: boldero;
+    background-color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+b {
+    margin-right: 5px;
+}

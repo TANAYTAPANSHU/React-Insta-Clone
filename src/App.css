@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+}
+
+.App {
+    background-color: #FAFAFA;
+    height: 100vh;
+}
+
+.app_header {
+    object-fit: contain;
+    background-color: #FFFFFF;
+    padding: 20px;
+    padding-left: 10px;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    justify-content: space-between;
+}
+
+.postMain {
+    margin-top: 20px;
+}
+
+#center {
+    margin: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.app__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.postMain {
+    display: flex;
+}
+
+.postLeft {
+    margin-left: 15%;
+    margin-right: 3%;
+}
+
+@media all and (max-width:500px) {
+    .postRight {
+        display: none;
+    }
+    .postLeft {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .app_header {
+        background-color: #FFFFFF;
+        padding: 20px;
+        padding-left: 10px;
+        border-bottom: 1px solid lightgrey;
+        display: flex;
+        justify-content: space-between;
+    }
+    .app_logincontainer {
+        margin-left: auto;
+        margin-left: 40px;
+    }
+}

@@ -1,0 +1,23 @@
+div.imagupload {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    bottom: 0;
+    padding: 0%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    border: 1px solid #C0B7AE;
+    background-color: white;
+}
+
+.imageprogress {
+    width: 100%;
+    margin-bottom: 0.3%;
+}
+
+input {
+    margin: 6px;
+}
